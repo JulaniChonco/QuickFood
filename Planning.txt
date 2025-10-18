@@ -1,0 +1,45 @@
+Class Customer:
+    Attributes:
+        - name
+        - contact_number
+        - address
+        - city
+        - email
+    Methods:
+        - capture details(): Collect customer details from the user
+
+Class Restaurant:
+    Attributes:
+        - name
+        - location
+        - contact number
+    Methods:
+        - capture details(): Collect restaurant details from the user
+
+Class Driver:
+    Attributes:
+        - name
+        - location
+        - load
+    Methods:
+        - read drivers file(): Reads the drivers.txt file and loads the driver details
+        - find available driver(): Checks the closest driver with the smallest load to the restaurant
+
+Class Invoice:
+    Attributes:
+        - order number
+        - customer details
+        - restaurant details
+        - meals details
+        - total amount
+        - driver assigned
+    Methods:
+        - generate invoice(): Generate the invoice in text file format
+
+Main Program Logic:
+    - Capture customer and restaurant details
+    - Read driver information from drivers.txt
+    - Check for available driver based on location and load
+    - If a driver is available, assign and generate invoice
+    - If no driver is available, display a message saying delivery isn't possible
+    - Write the invoice to invoice.txt
