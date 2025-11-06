@@ -109,6 +109,10 @@ Add CLI screenshots in `docs/screenshots/`, e.g.:
 - `docs/screenshots/quickfood-run.png`
 - `docs/screenshots/quickfood-invoice.png`
 
+## Deployment
+QuickFood is a **Java console application** and runs locally from your command line.  
+It is not hosted online. You can package and distribute it as a `.jar` for easy execution.
+
 ## Credits
 - Author: Julani Victor Chonco ([@JulaniChonco](https://github.com/JulaniChonco))
 - Mentors/Reviewers: HyperionDev
